@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 900px; 
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 3rem;
+    color: #333;
+    margin: 0;
+}
+
+.message {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.contact {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.email {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.homeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.homeButton:hover {
+    background-color: #0056b3;
+}
+
+.homeButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 1000px; 
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 3rem;
+    color: #333;
+    margin: 0;
+}
+
+.message {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.contact {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.email {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
